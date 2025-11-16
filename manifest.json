@@ -1,7 +1,7 @@
 {
-	"name": "Sample Theme",
-	"version": "1.0.0",
+	"name": "Obsidian Shadowdark Reskin",
+	"version": "0.1",
 	"minAppVersion": "1.0.0",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md"
+	"author": "Dominic Mauro",
+	"authorUrl": "https://github.com/dominicmauro/osr"
 }
