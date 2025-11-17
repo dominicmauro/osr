@@ -10,24 +10,6 @@ body {
 	--slider-thumb-radius: 0px;
 }
 
-// font stuff
-@font-face {
-	font-family: 'Old Newspaper Types';
-	src: url('./fonts/OldNewspaperTypes.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	font-style: italic;
-	src: url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
-}
-
-
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
 }
@@ -52,27 +34,59 @@ svg * {
 }
 
 
-/* Import the fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-/* H1 styling */
-h1 {
-	font-family: 'Old Newspaper Types', serif;
-	color: white;
-	background-color: black;
-	padding: var(--size-4-2) var(--size-4-3);
-	display: inline-block;
+@font-face {
+	font-family: 'Old Newspaper Types';
+	src: url('./fonts/OldNewspaperTypes.ttf') format('truetype');
 }
 
-/* H2 styling */
-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
 
-/* Body text styling */
-body {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+@font-face {
+	font-family: 'Montserrat';
+	font-style: italic;
+	src: url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+/* H1 in CodeMirror/Live Preview */
+.HyperMD-header.HyperMD-header-1.cm-line, .inline-title {
+	width: 100% !important;
+	background-color: black !important;
+	text-align: center !important;
+	padding: 1em 0em !important;
+	display: block !important;
+}
+
+.HyperMD-header.HyperMD-header-1, .inline-title  {
+	font-family: 'OldNewspaperTypes', serif !important;
+	color: white !important;
+	display: block !important;
+	text-align: center !important;
+	
+}
+
+.inline-title {
+	font-size: 3em !important;
+}
+
+.HyperMD-header.HyperMD-header-1 .cm-header.cm-header-1 {
+	font-family: 'OldNewspaperTypes', serif !important;
+	color: white !important;
+	font-size: 1.5em !important;
+}
+
+/* H2 in CodeMirror/Live Preview */
+.HyperMD-header.HyperMD-header-2 {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
+}
+
+.HyperMD-header.HyperMD-header-2 .cm-header.cm-header-2 {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
 }
