@@ -33,23 +33,21 @@ svg * {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
 
-
 @font-face {
-	font-family: 'Old Newspaper Types';
-	src: url('./fonts/OldNewspaperTypes.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	font-style: italic;
-	src: url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
-}
-
+	   font-family: 'Old Newspaper Types';
+	   src: url('./fonts/OldNewspaperTypes.ttf') format('truetype');
+   }
+   
+   @font-face {
+	   font-family: 'Montserrat';
+	   src: url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+   }
+   
+   @font-face {
+	   font-family: 'Montserrat';
+	   font-style: italic;
+	   src: url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+   }
 
 /* H1 in CodeMirror/Live Preview */
 .HyperMD-header.HyperMD-header-1.cm-line, .inline-title {
