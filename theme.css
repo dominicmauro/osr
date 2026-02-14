@@ -90,3 +90,9 @@ svg * {
 	font-weight: 700 !important;
 	text-transform: uppercase !important;
 }
+
+/* Hide inline-title in embedded blocks */
+.markdown-embed .inline-title,
+.internal-embed .inline-title {
+	display: none !important;
+}
