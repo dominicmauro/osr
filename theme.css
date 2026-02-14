@@ -96,3 +96,9 @@ svg * {
 .internal-embed .inline-title {
 	display: none !important;
 }
+
+/* Remove left border from embeds on canvas */
+.canvas-node-content .markdown-embed,
+.canvas-node-content .internal-embed {
+	border-left: none !important;
+}
